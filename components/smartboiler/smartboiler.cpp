@@ -1,6 +1,6 @@
 #include "smartboiler.h"
 #include "esphome/core/application.h"
-#include "mbedtls/md5.h"
+#include "esphome/components/hash/md5.h"
 
 // Make time component include conditional
 #ifdef USE_TIME
